@@ -53,14 +53,8 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/_Complete-Game/Scripts/Enemy.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/Loader.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/SoundManager.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/BoardManager.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/Player.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/Wall.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/MovingObject.cs" />
-    <Compile Include="Assets/_Complete-Game/Scripts/GameManager.cs" />
+    <Compile Include="Assets\Game\Scripts\Board.cs" />
+    <Compile Include="Assets/Game/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Fonts/OFL.txt" />
