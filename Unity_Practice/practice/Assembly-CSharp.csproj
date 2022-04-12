@@ -53,8 +53,8 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\Scripts\Board.cs" />
     <Compile Include="Assets/Game/Scripts/GameManager.cs" />
+    <Compile Include="Assets/Game/Scripts/Board.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Fonts/OFL.txt" />
