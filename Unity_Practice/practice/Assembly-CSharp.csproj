@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/Game/Scripts/GameManager.cs" />
-    <Compile Include="Assets/Game/Scripts/Board.cs" />
+    <Compile Include="Assets\Game\Scripts\BoardManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Fonts/OFL.txt" />
