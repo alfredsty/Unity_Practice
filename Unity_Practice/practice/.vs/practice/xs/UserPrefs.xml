@@ -1,14 +1,20 @@
 ﻿<Properties StartupConfiguration="{2273B626-0EFC-0D40-0E14-9FC298FA5C94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/Scripts/BoardManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/BoardManager.cs">
     <Files>
       <File FileName="Assets/Game/Scripts/GameManager.cs" Line="16" Column="9" />
-      <File FileName="Assets/Game/Scripts/BoardManager.cs" Line="61" Column="105" />
+      <File FileName="Assets/Game/Scripts/BoardManager.cs" Line="68" Column="23" />
+      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="practice" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_Complete-Game" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="BoardManager.cs" selected="True" />
+                </Node>
+              </Node>
               <Node name="Game" expanded="True">
                 <Node name="Scripts" expanded="True" />
               </Node>
