@@ -58,19 +58,41 @@ public class Board : MonoBehaviour
                 if (x == -1 || x == columns || y == -1 || y == rows)
                     toInstantiate = outerWallTiles[Random.Range(0, floorTiles.Length)]; // 바깥 벽 랜덤타일에서 인스턴스 준비
 
-                GameObject instance = Instantiate(toInstantiate, new Vector3(x,y,0f),Quaternion.identity);
+                GameObject instance = Instantiate(toInstantiate, new Vector3(x,y,0f),Quaternion.identity)as GameObject; // toInstantiate객체를 복제본 생성
+
+                instance.transform.SetParent(boardHolder);
             }
         }
     }
 
-    void Start()
+    Vector3 RandomPosition()
     {
+        // 정수 randomIndex를 선언하고, 0과 gridPositions 사이의 임의이 수를 설정함.
+        int randomIndex = Random.Range(0, gridPositions.Count);
 
+        //randomPosition으로 불리는 Vector3타입을 선언하고,list gridPositions를 randomIndex로 설정 
+        Vector3 randomPosition = gridPositions[randomIndex];
+
+       //같은 위치에 오브젝트 2개가 생성되는 걸 막기 위해 리스트에서 제거  
+        gridPositions.RemoveAt(randomIndex);
+
+       
+        return randomPosition;
     }
 
+    void LayoutObjectAtRandom(GameObject[] titleArray,int minimum, int maximum)
+    {
+        // minimum과 maxumum+1 사이 랜덤값으로 초기화
+        int objectCount  = Random.Range(minimum, maximum + 1);
+    }
+
+    void Start()
+    {
+        
+    }
 
     void Update()
     {
-
+        
     }
 }
