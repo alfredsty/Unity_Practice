@@ -1,22 +1,18 @@
 ﻿<Properties StartupConfiguration="{2273B626-0EFC-0D40-0E14-9FC298FA5C94}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/BoardManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Game/Scripts/BoardManager.cs">
     <Files>
       <File FileName="Assets/Game/Scripts/GameManager.cs" Line="16" Column="9" />
-      <File FileName="Assets/Game/Scripts/BoardManager.cs" Line="68" Column="23" />
-      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Scripts/BoardManager.cs" Line="91" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="practice" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="_Complete-Game" expanded="True">
+              <Node name="Game" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="BoardManager.cs" selected="True" />
                 </Node>
-              </Node>
-              <Node name="Game" expanded="True">
-                <Node name="Scripts" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3f3da603-33f9-49fe-8eb0-734574958667" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2c3dc86d-5a8a-4ef7-a651-9eb47ee62a31" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

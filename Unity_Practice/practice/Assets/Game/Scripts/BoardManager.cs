@@ -80,10 +80,21 @@ public class Board : MonoBehaviour
         return randomPosition;
     }
 
-    void LayoutObjectAtRandom(GameObject[] titleArray,int minimum, int maximum)
+    void LayoutObjectAtRandom(GameObject[] tileArray,int minimum, int maximum)
     {
-        // minimum과 maxumum+1 사이 랜덤값으로 초기화
+        // minimum과 maxumum+1 사이 랜덤값으로 초기화;
         int objectCount  = Random.Range(minimum, maximum + 1);
+        for(int i  = 1; i<objectCount; i++)
+        {
+            Vector3 randomPosition = RandomPosition();
+
+           //tileArray에 
+            GameObject tileChoice = tileArray[Random.Range(0, tileArray.Length)];
+
+            // 선택한 타일을 인스턴스
+            Instantiate(tileChoice, randomPosition, Quaternion.identity);
+
+        }
     }
 
     void Start()
