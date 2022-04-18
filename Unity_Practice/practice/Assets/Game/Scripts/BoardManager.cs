@@ -88,14 +88,16 @@ public class Board : MonoBehaviour
         {
             Vector3 randomPosition = RandomPosition();
 
-           //tileArray에 
+           //tileArray에 0부터 tileArray.length까지 
             GameObject tileChoice = tileArray[Random.Range(0, tileArray.Length)];
 
-            // 선택한 타일을 인스턴스
+            // 선택한 타일을 인스턴스화 시킴
             Instantiate(tileChoice, randomPosition, Quaternion.identity);
 
         }
     }
+
+
 
     void Start()
     {
